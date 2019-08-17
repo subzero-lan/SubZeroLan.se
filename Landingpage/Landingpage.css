@@ -2,6 +2,9 @@ body{
 background-image: url("Media/Landingpage-Background.jpg");
 background-size: cover;
 }
+a h2:hover{
+color: grey;
+}
 h1{
 width: auto;
 height: auto;
@@ -10,6 +13,7 @@ top: 50%;
 position: absolute;
 color: white;
 font-size: 4vw;
+font-family:sans-serif;
 }
 Header{
 width: 100%;
@@ -18,12 +22,42 @@ left: 0%;
 margin-top: -1%;
 position: absolute;
 }
-.HeaderBox{
+.Headerbox-Background{
 width: 100%;
 height: 100%;
 position: absolute;
 background-color: black;
-opacity: 0.75;
+opacity: 0.50;
+}
+h2{
+float: left;
+text-decoration: none;
+font-family: sans-serif;
+color: white;
+}
+.Home-Button{
+width: 5%;
+height: 5%;
+position: absolute;
+padding-left: 2%;
+}
+.Home-Button h2{
+padding-left: 1%;
+padding-right: 10%;
+padding-top: 4%;
+}
+.Button-Box{
+width: 45%;
+height: 100%;
+position: absolute;
+right: 0%;
+}
+.Button-Box h2{
+width: auto;
+height: 100%;
+float: left;
+padding-left: 10%;
+padding-top: 1%;
 }
 .SubzeroCenterBox{
 width: auto;
