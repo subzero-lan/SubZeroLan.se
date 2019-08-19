@@ -2,6 +2,9 @@ body{
 background-image: url("Media-sponsorer/Landingpage-Background.jpg");
 background-size: cover;
 }
+a:hover:enabled h1{
+
+}
 a h2:hover{
 color: grey;
 }
@@ -63,4 +66,42 @@ position: absolute;
   top: 8%;
   background-color: red;
   position: absolute;
+}
+.dropbtn {
+  background-image: url("Media-sponsorer/open-menu-01-512.png");
+  background-size: cover;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10%;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
